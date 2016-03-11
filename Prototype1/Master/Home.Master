@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Prototype1.Master.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Style/bootstrap.css" />
+    <script src="../Script/bootstrap.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <%if (Session["UserName"] != null)
+                          {%>
+                        <a class="navbar-brand" href="../Admin/AdminMenu.aspx">Efento</a>
+                        <%}
+                          else
+                          {%>
+                        <a class="navbar-brand" href="../Home.aspx">Efento</a>
+                        <%} %>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <%if (Session["UserName"] != null)
+                          {%>
+                        <ul class="nav navbar-nav navbar-right">
+                            Welcome, <%= Session["UserName"].ToString() %>
+                            <a class="active" href="../Home.aspx">Logout</a>
+                        </ul>
+                        <%}
+                          else
+                          {%>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="../Login/LoginAdmin.aspx">Login</a></li>
+
+                            <!--<li class="active"><a href="../Login/LoginGuest.aspx">Guest Login</a></li>-->
+                        </ul>
+                        <%} %>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                <!--/.container-fluid -->
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        <br />
+        <br />
+        <br />
+    </asp:ContentPlaceHolder>
+</body>
+</html>

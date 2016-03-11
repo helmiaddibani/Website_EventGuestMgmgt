@@ -1,0 +1,21 @@
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\bin\Prototype1.dll.config
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\bin\Prototype1.dll
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\bin\Prototype1.pdb
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\obj\Debug\Prototype1.dll
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\obj\Debug\Prototype1.pdb
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\bin\MessagingToolkit.QRCode.dll
+C:\Users\helmi\Documents\Kuliah\FYP\Prototype1\Prototype1\obj\Debug\Prototype1.csprojResolveAssemblyReference.cache
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\bin\Prototype1.dll.config
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\bin\Prototype1.dll
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\bin\Prototype1.pdb
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\bin\MessagingToolkit.QRCode.dll
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\obj\Debug\Prototype1.csprojResolveAssemblyReference.cache
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\obj\Debug\Prototype1.dll
+C:\Users\helmi\Dropbox\FYP\Web Service\EvenentManagementSystem\Prototype1\Prototype1\obj\Debug\Prototype1.pdb
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\bin\Prototype1.dll.config
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\bin\Prototype1.dll
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\bin\Prototype1.pdb
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\bin\MessagingToolkit.QRCode.dll
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\obj\Debug\Prototype1.csprojResolveAssemblyReference.cache
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\obj\Debug\Prototype1.dll
+C:\Users\helmi\Google Drive\Kuliah\FYP\Prototype1\Prototype1\obj\Debug\Prototype1.pdb
